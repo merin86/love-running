@@ -18,17 +18,22 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
 /* Header */
 header {
     background-color: lightcoral;
 }
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
     background-color: orange;
